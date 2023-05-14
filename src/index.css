@@ -1,0 +1,45 @@
+/*{
+  border: 1px solid red 
+}*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bg-gray {
+  background-color: #232028;
+}
+
+.bg-img {
+  background-image: url(images/Hexagon.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.bg-curve {
+  background-image: url(images/Curve.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 450px;
+}
+.bg-lime {
+  background-color: #67e8bf;
+  border-color: #67e8bf;
+  color: #000
+}
+
+.m-border{
+  border: 1px solid #1c1c1c;
+}
